@@ -1,0 +1,19 @@
+
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #242424;
+    color: white;
+  }
+  
+  button{
+    padding: 0.5em;
+    margin-right: 2em;
+  }
+  
+  
