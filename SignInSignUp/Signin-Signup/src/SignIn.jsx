@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import "./SignIn.css"
 
 function SignIn() {
@@ -10,7 +11,7 @@ function SignIn() {
       <input type="password" />
       <button>Sign In</button>
       <a href="#">Forget password?</a>
-      <button>Sign Up</button>
+      <button> <Link to="/signUp" >Sign Up</Link> </button>
     </div>
   )
 }
