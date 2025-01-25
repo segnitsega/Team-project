@@ -1,0 +1,18 @@
+
+
+body{
+    background-color: bisque;
+    display: inline-flex;
+    /* flex-direction: ; */
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+div{
+   display: flex;
+   flex-direction: column;
+   gap: 0.5em;
+}
